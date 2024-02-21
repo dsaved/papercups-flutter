@@ -1,6 +1,6 @@
 name: papercups_flutter
 description: Native Flutter implementation of the papercups.io chat widget.
-version: 3.1.0
+version: 3.1.1
 homepage: https://github.com/aguilaair/papercups_flutter
 
 environment:
@@ -10,16 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  phoenix_socket: ^0.5.3
+  phoenix_socket: ">=0.5.3 <0.7.0"
   http: ">=0.12.2 <0.14.0"
   universal_io: ^2.0.4
   flutter_markdown: ">=0.5.2 <0.7.0"
   timeago: ">=2.0.30 <4.0.0"
-  intl: ">=0.16.1 <0.18.0"
-  file_picker: ^4.1.4
+  intl: ">=0.16.1 <0.19.0"
+  file_picker: ^5.2.5
   path_provider: ^2.0.1
   url_launcher: ^6.1.2
-  open_file: ^3.2.1
+  open_filex: ^4.3.2
 
 dev_dependencies:
   flutter_test:
